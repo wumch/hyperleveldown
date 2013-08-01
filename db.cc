@@ -33,7 +33,7 @@ void HyperLevelDB::init(v8::Handle<v8::Object> exports)
 	attach_func(prototype, "approximateSize", js_approximate_size);
 	attach_func(prototype, "getProperty", js_get_property);
 	attach_func(prototype, "iterator", js_iterator);
-//
+
 	attach_func(prototype, "destory", js_destroy);
 	attach_func(prototype, "repair", js_repair);
 
